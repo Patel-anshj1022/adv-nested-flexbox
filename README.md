@@ -2,16 +2,15 @@
 
 ## Overview
 
-This project demonstrates the use of Flexbox and CSS Grid to create a responsive and visually appealing layout. It includes a simple web page with a header, a main content area featuring both Flexbox and Grid layouts, and a footer.
+This project demonstrates the use of Flexbox and CSS Grid and nested-flex-container. It includes a simple web page with a header, an area featuring Flexbox and Grid layouts and a nested-flex-container.
 
 ## Project Structure
 
-The project consists of the following files:
+The project consists of the following features:
 
 ## Features
 
 - **Flexbox Layout**: The project includes a Flexbox container with several items, showcasing advanced alignment and distribution techniques. It also features a nested Flexbox container for added complexity.
   
-- **CSS Grid Layout**: A CSS Grid container is implemented, demonstrating item placement, spanning, and alignment.
-
-- **Responsive Design**: The layout is designed to be responsive, adjusting to different screen sizes.
+- **CSS Grid Layout**: A CSS Grid container is showed which demonstrates item placement, spanning and alignment.
+- **Nested-flexbox-container**: A nested-flexbox-conatainer layout that is designed to fit in a grid-box.
