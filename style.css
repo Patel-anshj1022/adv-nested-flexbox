@@ -10,12 +10,9 @@ body {
 
 header, footer {
     text-align: center;
-    background-color: #333;
     color: white;
     padding: 10px 0;
 }
-
-
 
 .flexbox-container {
     display: flex;
@@ -41,19 +38,17 @@ header, footer {
 }
 
 .grid-item {
-    background-color: #2196F3;
     padding: 30px;
     text-align: center;
 }
  
   
   .child {
-    width: calc(30% - 20px);
-    height: 200px;
+    width: 500px;
+    height: 250px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
   }
   
@@ -62,24 +57,22 @@ header, footer {
     cursor: pointer;
   }
 
-    @media (max-width: 768px) {
-        .child {
-          width: calc(45% - 10px);
-        }
-      }
-      
-      @media (max-width: 480px) {
-        .child {
-          width: calc(100% - 10px);
-        }
-      }
-      
-      .nav{
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
+    @media (max-width: 768px)
+
+    .nav{
+        align-items: center;
         top: 0%;
-        position:top;
-      }
+        padding: 10px 0; 
+        position: fixed;
+
+    }
+
+    h1{
+        color: #ffffff
+    }
+    
+    h2{
+        color: #ffffff
+    }
 
    
