@@ -37,6 +37,8 @@ header, footer {
         justify-content: space-between;
         margin-top: 10px;
         width: 100%;
+        flex-direction: column;
+
     }
 
 
